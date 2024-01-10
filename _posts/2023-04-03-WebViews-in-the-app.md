@@ -7,7 +7,7 @@ Originally published [here](https://medium.com/mediamarktsaturn-tech-blog/how-to
 
 **_by [Jonas Uekötter](https://twitter.com/ue_man)_**
 
-![](./cover.png)
+![](/assets/webview/cover.png)
 
 _We're using WebViews in the mobile apps for Media Markt and Saturn. I know, they're frowned upon, since they're bad for the performance, bad for the user experience and as mobile developers we want to build beautiful native experiences. But trust me, they're useful. Just keep reading._
 
@@ -41,7 +41,7 @@ One of the biggest issue with this app and web hybrid approach is to sync state 
 
 The WebViews from Android and iOS provide us developers with APIs for the so called cookie store (often jokingly referred to as cookie jar), which drives the respective platforms WebView. We’re using that cookie store not just to drive the WebView, but also to drive the whole web traffic for all native parts of the application.
 
-![](./cookie-store.png)
+![](/assets/webview/cookie-store.png)
 
 So what does this mean in practice? We have a native login in which we write the cookies the server responds with to the cookie store.
 When the customer is opening a WebView, the WebView reads the cookie store and sends the previously set cookies when making a request. Based on the cookies, the server knows the users login.
@@ -52,7 +52,7 @@ With that out of the way, we solved a big problem of a hybrid application.
 
 The next big problem is the hybrid navigation flow, in which we have a navigation flow between native and WebView parts. In order to present our customers with a great experience we need to enable a seamless navigation between the two parts. Consider the following image. The screens in the red square are webviews, and the rest of the screens are native.
 
-![](./hybrid-flow.png)
+![](/assets/webview/hybrid-flow.png)
 
 Solving this problem for the forward navigation is doable as the WebView provides callbacks which let us know whenever it wants to open a new URL.
 
@@ -81,7 +81,7 @@ Now, that we’ve solved the two main problems to make WebViews a viable solutio
 
 ## Removing footers and headers
 
-![](./before_after.png)
+![](/assets/webview/before_after.png)
 
 The improvement with the biggest positive impact on the user experience is to simply remove the header and footer of the shown webpage. Without header and footer the content in the webpage just looks way more integrated and, dare I say it, native. We can even enrich the screen where the webpage is shown with native content provided by the app. See for example the share button on the product detail page which makes the experience another tad more pleasant.
 
@@ -95,7 +95,7 @@ Another use case, where we're using it, is to get notified when a customer adds 
 
 ## Native error pages
 
-![](./error_screen.png)
+![](/assets/webview/error_screen.png)
 
 The last example of improvements is the error page during no-internet situations. By default Android shows the ugly error indicator page on the left side, as seen in the example above. I think we can all agree, that we rather have the error indicator page on the right side, right? Okay, then lets do it. We enable this by listening for error callbacks from the WebView and in the case of one, we hide the WebView to show a native error page with a button to reload the page. It looks somewhat like the below example.
 
