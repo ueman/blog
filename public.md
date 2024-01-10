@@ -18,10 +18,7 @@ permalink: /public/
 - Flying High with Flutter
   - [Error Monitoring in Flutter: Best Practices](https://www.youtube.com/watch?v=IGhm7RcY1ak)
   - English
-- Flutter DACH: Episode 14
-  - App Performance Monitoring in Flutter - Tools, Tipps und Erfahrungen
-  - German
-  - [Spotify](https://open.spotify.com/episode/42PnMAji30UExC6Lh2i3Fy)
+- Flutter DACH Podcast, details [here](https://blog.uekoetter.dev/2023/12/04/podcast-flutter-dach.html)
 
 ### Publications
 
