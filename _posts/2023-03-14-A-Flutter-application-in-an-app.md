@@ -190,12 +190,4 @@ combination of various APIs.
 
 You can find the whole source code at <a href="https://github.com/ueman/flutter_in_dock" target="_blank">https://github.com/ueman/flutter_in_dock</a>.
 
-You can follow me on the socials below.
-
 Originally published on [Medium](https://medium.com/p/16e32ed1f91f).
-
-<a
-href="https://medium.com/@jonasuekoetter/a-flutter-application-in-an-app-icon-16e32ed1f91f"
-class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on January 10, 2024.
