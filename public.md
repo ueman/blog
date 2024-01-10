@@ -7,6 +7,7 @@ permalink: /public/
 ### Talks
 
 - [Flutter Berlin, October 2023](https://www.meetup.com/flutter-berlin/events/296529115/)
+- [Distributed Tracing with Flutter and dart_frog](https://www.meetup.com/flutter-meetup-hamburg/events/293470285/)
 - How to use WebViews to get up and running fast
   - I spoke about that topic in early 2023 in Barcelonaa
   - It's also available as blog post on the [MediaMarktSaturn Tech Blog](https://medium.com/mediamarktsaturn-tech-blog/how-to-use-webviews-to-get-up-and-running-fast-d3599c884c2c)
