@@ -4,13 +4,6 @@ title: "Improving the little things"
 ---
 
 In this blog post, you’ll learn which small changes you can do for your
-Flutter app, in order to create a better experience for your users…
-
-------------------------------------------------------------------------
-
-### Improving the little things
-
-In this blog post, you’ll learn which small changes you can do for your
 Flutter app, in order to create a better experience for your users.
 We’re focussing on Flutter apps for Android and iOS.
 
