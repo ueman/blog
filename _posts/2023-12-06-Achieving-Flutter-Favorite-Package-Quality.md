@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improving the little things"
+title: "Achieving Flutter Favorite Package Quality"
 ---
 
 This article doesn’t show you how your package become a Flutter Favorite
