@@ -3,8 +3,6 @@ layout: post
 title: "Bridging the gap: Distributed tracing for Flutter and Backend"
 ---
 
-### Bridging the gap: Distributed tracing for Flutter and Backend
-
 *This article covers what distributed tracing is and how it works. After
 explaining the fundamentals, I’m going to demonstrate it with Flutter
 (for the app), dart_frog (for the backend) and Sentry (as the tool for
