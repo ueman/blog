@@ -19,6 +19,13 @@ remote_theme: jekyll/minima
 header_pages:
   - public.md
 
+plugins:
+  - jekyll-feed # enables the RSS feed
+  - jekyll-seo-tag
+
+# Set to `true` to show excerpts on the homepage.
+show_excerpts: false
+
 minima:
   # Minima skin selection.
   # Available skins are:
