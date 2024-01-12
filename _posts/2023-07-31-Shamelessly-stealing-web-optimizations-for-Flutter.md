@@ -13,9 +13,6 @@ understood. There’s for example a lot of information to be found at
 <a href="https://web.dev/metrics/" target="_blank">https://web.dev/metrics/</a>.
 We’ll now take a look at a couple of strategies, which have a positive impact on your app.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*3OKEcI9RHIocVr_oBQaC_Q.jpeg" />
-<figcaption>Turning knobs and sliders for performance 🚀</figcaption>
-
 ### Responsive image loading
 
 At the start of the development of an app, you’re typically running a
