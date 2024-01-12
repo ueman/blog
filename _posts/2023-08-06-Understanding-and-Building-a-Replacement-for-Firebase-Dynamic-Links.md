@@ -12,9 +12,6 @@ rel="noopener" target="_blank">an FAQ entry</a>:
 > you will have at least 12 months from the announcement date to
 > migrate. We will announce more information in Q3 2023.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*GbScs59lOT2tjF7wEYdG5Q.jpeg" />
-<figcaption>Connected chain links. Get it? Because links!</figcaption>
-
 That’s why we’re going to build a replacement for Firebase Dynamic Links
 (FDL) with Flutter in this article.
 
@@ -48,7 +45,7 @@ however, that FDL has a mechanism that covers deeplinks for the first
 app start. It’s called deferred deeplinking. This is very nicely
 explained by this image
 
-<img src="https://cdn-images-1.medium.com/max/800/0*8ICKhwIQgMd7JiKi.png"/>
+<img src="/assets/fdl/fdl.png"/>
 <figcaption>Taken from <a href="https://blog.pragmaticengineer.com/google-shutting-down-firebase-dynamic-links/" target="_blank">
 https://blog.pragmaticengineer.com/google-shutting-down-firebase-dynamic-links/</a></figcaption>
 

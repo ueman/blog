@@ -7,15 +7,6 @@ This article doesn’t show you how your package become a Flutter Favorite
 package, it rather shows you how to meet and exceed the quality bar for
 the Flutter Favorite program.
 
-<figure id="b33a" class="graf graf--figure graf-after--p">
-<img
-src="https://cdn-images-1.medium.com/max/800/1*ME68YcayB3flWa8IvaA98g.png"
-class="graf-image" data-image-id="1*ME68YcayB3flWa8IvaA98g.png"
-data-width="3840" data-height="2160" data-is-featured="true" />
-<figcaption>Dash, who is probably reading this article
-right now</figcaption>
-</figure>
-
 > About the author:   
 > Jonas is a Dart & Flutter GDE as well as a Flutter Favorite package
 > author. His Flutter Favorite package is
@@ -37,17 +28,12 @@ But first, what is a Flutter Favorite?
 > rel="noopener" target="_blank">Flutter Favorite Page</a>
 
 You can see the complete list of
-<a href="https://pub.dev/flutter/favorites"
-class="markup--anchor markup--p-anchor"
-data-href="https://pub.dev/flutter/favorites" rel="noopener"
-target="_blank">Flutter Favorite packages</a> on pub.dev.
+<a href="https://pub.dev/flutter/favorites" target="_blank">Flutter Favorite packages</a> on pub.dev.
 
 Flutter Favorite packages have to meet a certain quality, this quality
 is measure based on the following metrics
 
-- <span id="8181"><a href="https://pub.dev/help" class="markup--anchor markup--li-anchor"
-  data-href="https://pub.dev/help" rel="noopener" target="_blank">Overall
-  package score</a></span>
+- <a href="https://pub.dev/help">Overall package score</a>
 - <span id="bc03">**Permissive license**, including (but not limited to)
   Apache, Artistic, BSD, CC BY, MIT, MS-PL and W3C</span>
 - <span id="2e92">GitHub **version tag** matches the current version
@@ -71,11 +57,8 @@ to meet, but, ideally, exceed the quality bar.
 
 ### Package Score
 
-<figure id="66b8" class="graf graf--figure graf-after--h3">
-<img
-src="https://cdn-images-1.medium.com/max/800/1*SJgZjBOml5DXBBhKymSQxA.png"
-class="graf-image" data-image-id="1*SJgZjBOml5DXBBhKymSQxA.png"
-data-width="1610" data-height="1160" />
+<figure>
+<img src="/assets/flutter-favorite/pub-points.webp" />
 <figcaption>Example package score</figcaption>
 </figure>
 

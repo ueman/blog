@@ -29,7 +29,7 @@ As a result, the backend teams want to remove v1 of their API. Since old
 app versions basically never die, they, however, can’t get rid of v1 of
 the backend API.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*v7ioj_CEc71od8f0EKvS5w@2x.jpeg" />
+<img src="/assets/rolling-release-window/rolling-release-window.webp" />
 <figcaption>A sad story of not being able to deprecate old backend APIs</figcaption>
 
 Now we see that we have additional testing effort for old app versions
@@ -54,7 +54,7 @@ app versions, we do a force update to the oldest app version which is
 still in the set of the supported app versions. This is also pictured in
 the image below.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*rF9fPcv7sG0DGzjg5QuWSg@2x.jpeg" />
+<img src="/assets/rolling-release-window/rolling-release-window-2.webp" />
 <figcaption>Rolling Release Window in practice</figcaption>
 
 This strategy allows you to reduce testing efforts, get rid of old app

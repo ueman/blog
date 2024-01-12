@@ -69,7 +69,7 @@ class WidgetWithWrappedHandler extends StatelessWidget {
 
 The first tip is to enable the so-called edge to edge mode for Android.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*6MFjKekZ1Mf_zISm1_fgCQ.png" data-width="1970" data-height="2208" />
+<img src="/assets/little-things/before_after.webp" />
 
 
 As you can see in the before screenshot, the app has an iOS-like swipe

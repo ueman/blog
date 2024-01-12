@@ -36,7 +36,7 @@ parses it and shows it to the user.
 Typically, a trace for the above example is visualized in a flame chart,
 and it looks something like the following image.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*bolsQj5jB6E5lQBzRhpXZA@2x.jpeg" data-width="2284" data-height="1070" />
+<img src="/assets/bridging-the-gap/transaction.webp" />
 
 Each of the rectangles in the image above represents a so-called span.
 The red rectangle is the transaction, which is another word for the root
@@ -241,7 +241,7 @@ blue span is the HTTP operation of the app, grouped together with the
 HTTP operation of the server. The bottom span represents the time it
 took to load the data from the database.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*YaMwGWF0P-BZByW3nV-wsQ.png" data-width="1718" data-height="1216" />
+<img src="/assets/bridging-the-gap/sentry.webp" />
 
 It’s not just pretty cool to see how a request flows through multiple
 systems, but also quite insightful. I hope you learned a lot from this
